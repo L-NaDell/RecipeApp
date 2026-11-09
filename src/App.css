@@ -1,0 +1,3 @@
+/* Currently unused. Use for custom styles that Bootstrap doesn't have.  
+IF NEEDED: import ./App.csss in App.tsx, 
+           can also have seperate .css and .tsx for each component
