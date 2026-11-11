@@ -9,7 +9,7 @@ interface RecipeListProps {
 function RecipeList({ recipes }: RecipeListProps) {
   return (
     <>
-      <h1 style={{textDecoration: 'underline', color: 'white', textAlign: 'center', textDecorationColor: '#043023'}}>Recipes</h1>
+      <h1 style={{textDecoration: 'underline', color: 'white', textAlign: 'center'}}>Recipes</h1>
       {recipes.length === 0 && <p>No recipes yet.</p>}
       <ul className="list-group">
         {recipes.map((r) => (
