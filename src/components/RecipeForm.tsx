@@ -89,7 +89,7 @@ function RecipeForm({ onCreated }: RecipeFormProps) {
         <div className="form-text">Separate ingredients with commas.</div>
       </div>
 
-      <button type="submit" className="btn btn-primary" disabled={saving}>
+      <button type="submit" className="btn btn-primary" disabled={saving} style={{backgroundColor: '#7d1600', borderBlockColor: '#7d1600c7'}}>
         {saving ? "Saving..." : "Add recipe"}
       </button>
     </form>
